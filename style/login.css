@@ -1,0 +1,149 @@
+/* default setting */
+
+*, *::before 
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* bagian isi/ */
+
+.section-alpha{
+    width: 100vw;
+    height: 100vh;
+}
+.alpha{
+    display: flex;
+}
+
+.alpha-box{
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* bagian image */
+.alpha-box-image{
+    background-image: url(../img/janko-ferlic-sfL_QOnmy00-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 160vw;
+}
+.alpha-box-image-title{
+    margin-top: 4em;
+}
+
+
+.alpha-image-title{
+    font-size: 50px;
+    color: white;
+    margin: 0;
+}
+
+/* bagian icon */
+.alpha-box-icon{
+    display: 100vw;
+    text-align: right;
+}
+
+.alpha-icon{
+    padding: 1em;
+    height: 6em;
+    width: 8em;
+    margin: 0;
+}
+
+/* bagian judul */
+.alpha-box-title{
+    text-align: left;
+    padding-left: 3em;
+    margin-top: 8em;
+}
+
+.alpha_title{
+    font-size: 4em;
+    margin: 0;
+
+}
+
+.alpha_text{
+    font-size: 13px;
+    margin: 0;
+}
+
+/* bagian main*/
+.alpha-box-main{
+    display:100vw;
+    text-align: left;
+    padding-left: 3em; ;
+    margin-top: 3em;
+}
+
+
+
+.alpha-form input{
+    height: 50px;
+    width: 80%;
+    font-size: 18px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.alpha-box-check{
+    display:flex;
+    font-size: 13px;
+}
+
+.alpha-checkbox{
+    margin: 1em 0em;
+    margin-right: 17em;
+}
+
+
+
+input.checkbox{
+    margin: 0;
+    vertical-align: middle;
+}
+
+.alpha-box-button{
+    margin-top: 2em;
+}
+
+.alpha-button{
+    height: 30px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.alpha-button-login{
+    margin-right: 2em;
+}
+
+
+/* bagian bottom */
+
+.alpha-box-bottom{
+    padding-left: 3em;
+    margin-top: 10em;
+}
+
+.alpha-bottom{
+    margin: 0;
+    font-size: 14px;
+    
+}
