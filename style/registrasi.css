@@ -27,7 +27,7 @@ body{
 .alpha-box{
     background-color: white;
     width: 100vw;
-    height: 100vh;
+    height: 110vh;
 }
 
 /* bagian image */
@@ -129,7 +129,7 @@ input.checkbox{
     font-size: 20px;
 }
 
-.alpha-button-login{
+.alpha-button-signup{
     margin-right: 2em;
 }
 
@@ -138,7 +138,7 @@ input.checkbox{
 
 .alpha-box-bottom{
     padding-left: 3em;
-    margin-top: 10em;
+    margin-top: 12em;
 }
 
 .alpha-bottom{
